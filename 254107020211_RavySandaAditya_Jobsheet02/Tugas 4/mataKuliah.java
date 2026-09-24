@@ -15,6 +15,8 @@ public class mataKuliah {
   public double hitungBobotNilai(){
     double bobotNilai = sks * nilaiAngka;
     return bobotNilai; 
+    
+      
   }
 
 }

@@ -14,6 +14,19 @@ public class BagiKelompokTC {
             System.out.println("jumlah kelompok tidak boleh nol");
         }
 
+        // try { kasus error harusnya angka tpi memasukkan teks
+   // int angka = Integer.parseInt("abc");
+    //} catch (NumberFormatException e) {
+    //System.out.println("Input harus berupa angka");
+    //}
+
+    // try {
+    //int[] angka = {10, 20, 30};
+    //System.out.println(angka[5]);
+    //} catch (ArrayIndexOutOfBoundsException e) {
+    //System.out.println("Index tidak tersedia");
+    //}
+
         System.out.println(anggotaPerKelompok);
         System.out.println("akhir program");
     }
